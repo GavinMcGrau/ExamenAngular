@@ -8,9 +8,9 @@ const routes: Routes = [
 
   {
     path: 'final',
-    component:FinalComponent
+    component: FinalComponent
   }
-]
+];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
