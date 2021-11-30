@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CocheComponent } from './coches/coche/coche.component';
 import { CochesFormComponent } from './cochesForm/coches-form/coches-form.component';
 import { FormsModule } from '@angular/forms';
+import { FinalComponent } from './final/final.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CocheComponent,
-    CochesFormComponent
+    CochesFormComponent,
+    FinalComponent
   ],
   imports: [
     BrowserModule,
