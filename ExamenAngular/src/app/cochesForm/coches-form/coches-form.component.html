@@ -1,0 +1,36 @@
+<form #itemForm="ngForm" (ngSubmit)="insertarCoche(marca, matricula, color)">
+    <label for="marca">
+    Marca
+    <input
+      class="form-control"
+      type="text"
+      [(ngModel)]="marca"
+      name="marca"
+      ngModel
+      required
+    />
+  </label>
+    <label for="matricula">
+    Matricula
+    <input
+      class="form-control"
+      type="text"
+      [(ngModel)]="matricula"
+      name="matricula"
+      ngModel
+      required
+    />
+  </label>
+    <label for="matricula">
+    Color
+    <input
+      class="form-control"
+      type="text"
+      [(ngModel)]="color"
+      name="color"
+      ngModel
+      required
+    />
+  </label>
+    <button type="submit">Submit</button>
+</form>

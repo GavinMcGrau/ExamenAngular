@@ -1,0 +1,11 @@
+<h1 id="sinInfo" style="display: none">
+    No hay registros, introducelos con el formulario
+</h1>
+
+<div id="listadoCoches" *ngFor="let item of listaCoches">
+    <h2>
+        Marca: {{ item.marca }} Matricula: {{ item.matricula }} Color: {{ item.color }}
+    </h2>
+</div>
+
+<app-coches-form [listaCoches]="listaCoches"></app-coches-form>
